@@ -32,7 +32,7 @@ Furthermore, I wanted a more elegant way to [dis]connect stuff that is more in l
 ### Why did you choose the connectors you chose to do this?
 #### Short answer: It looks more professional.
 - It is necessary to unplug the Programmer to restart the console, so [having just one connection to disconnect is faster and easier.](https://youtu.be/hpOlGeCHwro?t=4654)
-- I want to avoid desoldering unless I fucked up soldering.
+- I want to avoid desoldering unless I fucked up any soldering.
 #### Long Answer: To idiot-proof the tooling!
 - The [DA-15 connector](https://en.wikipedia.org/wiki/D-subminiature#Description,_nomenclature,_and_variants) - unlike the [VGA-Connector](https://en.wikipedia.org/wiki/VGA_connector) - is quite uncommon and won't fit in neither VGA nor [RS-232](https://en.wikipedia.org/wiki/RS-232#Data_and_control_signals) connectors.
   - Yes I know it's the same connector as the [Gameport](https://en.wikipedia.org/wiki/Game_port) [used](https://en.wikipedia.org/wiki/D-subminiature#DA-15_connectors_2) and the [Apple IIc & IIe Display](https://en.wikipedia.org/wiki/D-subminiature#DA-15_connectors) but if you think those belong hooked up to an Xbox 360 then maybe you should not be allowed to touch anything more complex than a light switch and a "stupid phone" with a number pad.
@@ -40,6 +40,12 @@ Furthermore, I wanted a more elegant way to [dis]connect stuff that is more in l
 - I could've used a ["RJ-50" 10p10c](https://en.wikipedia.org/wiki/Modular_connector#10P10C) connector if I put all the GND lines together, but not only are they even harder to find at a reasonable price, but some people may attempt to violently shove it into an RJ-45 Ethernet socket anyway.
   - Also I don't want to fiddle with said tiny connectors when I can get DA-15 terminal blocks & plug casings for less than the tooling needed to properly crimp 10P10C connectors.
     - I can put the PicoFlasher in the same case as the adaptor and basically have a clean setup - at least from the outside.
+
+### What it won't do:
+#### Since it's RGH3, it'll not do more or less than it does.
+This includes the lack of moddability for the ["Winchester"](https://www.youtube.com/watch?v=QwZCnMqNaQ0) - Revision, which is the [last Xbox 360 "Slim E" version](https://www.youtube.com/watch?v=Wt8szKmKrRU) which are [made 07/2014 and later](https://weekendmodder.com/identify.html). You can [identify them just by looking through the top grade and see if there's a metal heatspreader on the XCGPU or not](https://www.youtube.com/watch?v=nEBafRncgsk&t=16).
+- If you want to be 100% certain that your console is moddable and worth the effort, then it's recommended to stick with an Xbox 360 "Slim S" which are [easily identified](https://weekendmodder.com/identify.html) by having no Memory Unit ports on the front, a HDD slot on the bottom instead of the top-mounted HDD and capacitive front buttons.
+
 ---
 ## Acknowledgements
 ### Projects
