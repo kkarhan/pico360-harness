@@ -28,6 +28,10 @@ Furthermore, I wanted a more elegant way to [dis]connect stuff that is more in l
 
 ### Why would anyone want to do this?
 #### Instead of having some "ugly wiring" this will inevitably make it easier to just setup stuff.
+In fact I do plan to refine this into some product that would utilize the [Pimoroni PGA2040](https://shop.pimoroni.com/products/pga2040?variant=39359629656147) which s the most compact version of the RP2040 that won't require one to make a custom PCB to access all the necessary pins...
+- It's also [very well](https://www.berrybase.de/en/pimoroni-pga2040) [available](https://buyzero.de/products/pga2040) on the market...
+  - So wiring is similarly easy or hard as directly soldering to the Pi Pico, yet it'll be small enough to fit inside the casing of DA-15 connector.
+    - You can find the [schematics here](https://cdn.shopify.com/s/files/1/0174/1800/files/pga2040_schematic.pdf?v=1622806355).
 
 ### Why did you choose the connectors you chose to do this?
 #### Short answer: It looks more professional.
