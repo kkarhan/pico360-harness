@@ -1,6 +1,6 @@
 # Pico360 Harness
 #### A custom and more professional Harness for the PicoFlasher
-##### Prerelease 0.0.2a
+##### Prerelease 0.1.0
 Kevin Karhan et. al.
 
 ---
@@ -88,6 +88,10 @@ This includes the lack of moddability for the ["Winchester"](https://www.youtube
 - [Raspberry Pi](https://www.raspberrypi.com/)
   - [RP2040](https://www.raspberrypi.com/products/rp2040/)
     - [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+      - The [excellent documentation]( https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html) by Rasperry Pi.
 - [The WeekendModder Shop](https://weekendmodder.com/store/index.php)
   - [PicoFlasher Custom Cable Harness](https://weekendmodder.com/store/index.php?route=product/product&path=60&product_id=274)
     - I got inspired by this and the [Universe BIOS's](http://unibios.free.fr/index.html) [PC2Neo Cable](http://unibios.free.fr/pc2neo.html).
+- [Pimoroni](https://shop.pimoroni.com/)
+  - [PGA2040](https://shop.pimoroni.com/products/pga2040), a compact PR2040 board designed to provide all the GPIO it can.
+    - It's also available with fancy header & socket combo for use in projects.
